@@ -1,0 +1,80 @@
+﻿body {
+}
+
+nav.mynav .logo img{
+	height: 30%;
+	width: 30%;
+	transition: 0.5s;
+	z-index: 1;
+	
+}
+nav.mynav #navdiv ul li a{
+	color: white;
+	transition: 0.5s;
+
+}
+nav.mynav #navdiv ul li a.active{
+	color: #dc3545;
+	border-radius: 100px;
+	background-color: white;
+
+}
+
+nav.mynav  #navdiv ul li a:hover{
+	background-color: white;
+	border-radius: 100px;
+	color: #dc3545;
+}
+
+nav.mynav{
+	opacity: 0.8;
+}
+
+
+nav #navdiv ul li a{
+	color: black;
+	transition: 0.5s;
+
+}
+
+nav #navdiv ul li a.active{
+	color: white;
+	border-radius: 100px;
+	background-color: #dc3545;
+
+}
+/* color: #dc3545; */
+nav  #navdiv ul li a:hover{
+	background-color: #dc3545;
+	border-radius: 100px;
+	color: white;
+}
+nav .logo img{
+	height: 50%;
+	width: 50%;
+	transition: 0.5s;
+	
+}
+
+.carousel-item{
+	height: 500px;
+}
+
+.carousel-image-1 {
+    
+    background-image: url('../img/s1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image-2 {
+    background-image: url('../img/s2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image-3{
+	background-image: url('../img/s3.jpg');
+	background-size: cover;
+	background-position: center;
+}
